@@ -7,5 +7,5 @@ class SendSmsJob < ActiveJob::Base
     message.update_columns(status: "sent")
 
   end
-  
+
 end

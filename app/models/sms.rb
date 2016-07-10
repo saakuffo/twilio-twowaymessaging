@@ -7,7 +7,7 @@ class SMS
     Twilio::REST::Client.new Rails.application.secrets.twilio_account_sid, Rails.application.secrets.twilio_token
   end
 
-  def send
+  def send(body)
     client.account.messages.create(
       :messaging_service_sid => Rails.application.secrets.twilio_messaging_service_sid,
       :to => @to_phone_number,

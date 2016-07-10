@@ -1,3 +1,6 @@
+This is based on:
+https://github.com/king601/twowaymessaging/tree/before_messaging
+
 == README
 
 This README would normally document whatever steps are necessary to get the
